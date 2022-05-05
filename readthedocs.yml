@@ -4,6 +4,9 @@ build:
   tools:
     python: "3.10"
 
+mkdocs:
+  configuration: mkdocs.yml
+
 python:
   install:
     - requirements: requirements.txt
